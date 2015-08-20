@@ -5,8 +5,10 @@
 int main()
 {
   int x, y, z;
-    x=10;
-    y=5;
+    cout<<"Enter the first number: ";
+    cin>>x;
+    cout<<"Enter the second number: ";
+    cin>>y;
     z=x+y;
     cout<<"The addition is: "<<z;
 }
