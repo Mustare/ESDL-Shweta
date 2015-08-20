@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd>
+using namespace std;
 
 int main()
 {
@@ -11,4 +12,5 @@ int main()
     cin>>y;
     z=x+y;
     cout<<"The addition is: "<<z;
+  return 0;
 }
